@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using WebApplication4.Models;
+@Model WebApplication4.Models.person;
+
+
+
+
+
+
+
+  
+@{
+    String message = Model.login2();
+}
+
+    
+   <h1>@message </h1>
+
+   <a href="/login/page">click here</a>
